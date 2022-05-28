@@ -1,11 +1,9 @@
-// TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const util = require("util");
 const fs = require("fs");
 const generateReadme = require("./utils/generateMarkdown");
 const writeFileAsync = util.promisify(fs.writeFile);
 
-// TODO: Create an array of questions for user input
 function promptUser() {
   return inquirer.prompt([
     {
@@ -19,9 +17,10 @@ function promptUser() {
       message: "Write out a description of your project.",
     },
     {
-      type: "input",
-      name: "tableOfContents",
-      message: "Include a table of contents. (Optional)",
+      type: "checkbox",
+      name: "licenses",
+      message: "Which licenses did you use for your project?",
+      choices: ["Academic", "GNU", "ISC", "MIT", "Mozilla", "Open"],
     },
     {
       type: "input",
@@ -41,7 +40,7 @@ function promptUser() {
     },
     {
       type: "input",
-      name: "testSection",
+      name: "tests",
       message: "Provide your tests for your project here. (Optional)",
     },
     {
@@ -54,21 +53,13 @@ function promptUser() {
       name: "email",
       message: "What is your email?",
     },
-    {
-      type: "checkbox",
-      name: "licenses",
-      message: "Which licenses did you use for your project?",
-      choices: ["Apache", "Academic", "GNU", "ISC", "MIT", "Mozilla", "Open"],
-    },
   ]);
 }
 
 async function init() {
   try {
-    // Ask user questions and generate responses
     const answers = await promptUser();
     const generateContent = generateReadme(answers);
-    // Write new README.md to dist directory
     await writeFileAsync("./utils/README.md", generateContent);
     console.log("Successfully recorded answers to README.md");
   } catch (err) {
@@ -77,12 +68,3 @@ async function init() {
 }
 
 init();
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
