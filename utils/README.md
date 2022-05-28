@@ -1,12 +1,10 @@
 
-<h1 align="center">UR MOM 👋</h1>
+# **Test Project!**
   
 ![badge](https://img.shields.io/badge/license-Academic,GNU,ISC,MIT,Mozilla,Open-brightgreen)<br />
 
-## Description
-🔍 Yo momma so swell, surfers maintain her wake.
-
-## Table of Contents
+## Table of Contents 📃
+<table>
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -14,27 +12,29 @@
 - [Contributing](#contributions)
 - [Tests](#tests)
 - [Questions](#githubUsername)
+</table>
 
-## Installation
-💾 Do the thing.
+## Description ✏️
+This is to test that everything is working for my README generator.
 
-## Usage
-💻 Do the other thing. You know?
+## Installation 💾
+Do the thing.
 
-## License
+## Usage 
+Do the other thing. Ya know?
+
+## License 📛
 ![badge](https://img.shields.io/badge/license-Academic,GNU,ISC,MIT,Mozilla,Open-brightgreen)
 <br />
 This application is covered by the Academic,GNU,ISC,MIT,Mozilla,Open license.
 
-## Contributing
-👪 If you know any good yo momma jokes, please contribute.
+## Contributers 👩‍💻
+Please don't contribute. Unless you want?
 
-## Tests
-✏️ Testes
+## Tests 🧪
+Test!
 
-## Questions
-✋ Have any questions regarding how this program works? Please contact me through GitHub or email me directly!<br />
-<br />
-:octocat: GitHub: [eacquistapace](https://github.com/eacquistapace)<br />
-<br />
-✉️ Email: eacquistapace@gmail.com<br /><br />
+## Questions 🤚
+Have any questions regarding how this program works? Please contact me through GitHub or email me directly!<br />
+📂 GitHub: [eacquistapace](https://github.com/eacquistapace)<br />
+✉️ Email: eacquistapace@gmail.com
