@@ -10,9 +10,9 @@
 
 ## Description ✏️
 ---
-This app uses node.js in order to take user input and insert it into a custom README file to be used for a repository. The example README that was generated with this application is located under utils. I even used aspects of it to create this README file! You can find a full video demonstration for the application below.
+This app uses node.js in order to take user input and insert it into a custom README file to be used for a repository. The example README that was generated with this application is located under utils. I even used aspects of it to create this README file! You can find a full video demonstration for the application at the link below.
 
-<iframe src="https://drive.google.com/file/d/17jmkVyVucyvRKYHq-tdIfTzXHppw8P7D/preview" width="640" height="480"></iframe>
+"https://drive.google.com/file/d/17jmkVyVucyvRKYHq-tdIfTzXHppw8P7D/preview"
 
 ## Installation 💾
 ---
