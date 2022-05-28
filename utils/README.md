@@ -1,7 +1,7 @@
 
-<h1 align="center">Test README Generator<h1>
+<h1 align="center"> **Example README Generator** <h1>
   
-![badge](https://img.shields.io/badge/license-ISC-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
 ## Table of Contents 📃
 ---
@@ -15,27 +15,27 @@
 
 ## Description ✏️
 ---
-This will generate a README using my README generator app!
+This should generate a README using my new README generator app!
 
 ## Installation 💾
 ---
-Download the thing.
+Install all the necessary things!
 
 ## Usage 💻
 ---
-Don't forget the other thing!
+Use the command node index.js!
 
 ## License 📛
 ---
-This application is covered by the ISC license.
+This application is covered by the MIT license.
 
 ## Contributers 👩‍💻
 ---
-N/A
+Ellen
 
 ## Tests 🧪
 ---
-Tests
+N/A
 
 ## Questions 🤚
 ---
