@@ -1,10 +1,10 @@
 
-# **Test Project!**
+<h1 align="center">Test README Generator<h1>
   
-![badge](https://img.shields.io/badge/license-Academic,GNU,ISC,MIT,Mozilla,Open-brightgreen)<br />
+![badge](https://img.shields.io/badge/license-ISC-brightgreen)<br />
 
 ## Table of Contents 📃
-<table>
+---
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -12,29 +12,33 @@
 - [Contributing](#contributions)
 - [Tests](#tests)
 - [Questions](#githubUsername)
-</table>
 
 ## Description ✏️
-This is to test that everything is working for my README generator.
+---
+This will generate a README using my README generator app!
 
 ## Installation 💾
-Do the thing.
+---
+Download the thing.
 
-## Usage 
-Do the other thing. Ya know?
+## Usage 💻
+---
+Don't forget the other thing!
 
 ## License 📛
-![badge](https://img.shields.io/badge/license-Academic,GNU,ISC,MIT,Mozilla,Open-brightgreen)
-<br />
-This application is covered by the Academic,GNU,ISC,MIT,Mozilla,Open license.
+---
+This application is covered by the ISC license.
 
 ## Contributers 👩‍💻
-Please don't contribute. Unless you want?
+---
+N/A
 
 ## Tests 🧪
-Test!
+---
+Tests
 
 ## Questions 🤚
-Have any questions regarding how this program works? Please contact me through GitHub or email me directly!<br />
-📂 GitHub: [eacquistapace](https://github.com/eacquistapace)<br />
+---
+Have any questions regarding how this program works? Please contact me through GitHub or email me directly!
+📂 GitHub: [eacquistapace](https://github.com/eacquistapace)
 ✉️ Email: eacquistapace@gmail.com
