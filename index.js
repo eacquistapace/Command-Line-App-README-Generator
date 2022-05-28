@@ -1,9 +1,11 @@
+//Variable and dependancy declarations
 const inquirer = require("inquirer");
 const util = require("util");
 const fs = require("fs");
 const generateReadme = require("./utils/generateMarkdown");
 const writeFileAsync = util.promisify(fs.writeFile);
 
+//Prompt questions for user and populate to the README
 function promptUser() {
   return inquirer.prompt([
     {
@@ -58,8 +60,10 @@ function promptUser() {
 
 async function init() {
   try {
+    //Ask user question and generate responses
     const answers = await promptUser();
     const generateContent = generateReadme(answers);
+    //Write responses to README located in utils
     await writeFileAsync("./utils/README.md", generateContent);
     console.log("Successfully recorded answers to README.md");
   } catch (err) {
